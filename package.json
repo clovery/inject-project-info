@@ -1,12 +1,11 @@
 {
-  "name": "inject-project-info",
+  "name": "@uyun/webpack-git-info",
   "version": "1.0.0",
   "description": "一个工具类插件。别提供了webpack 插件版本和vite 插件版本。打包项目时注入git仓库信息和打包时间等，可在控制台日志查看，方便定位版本问题。",
   "main": "lib/index.min.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx only-allow pnpm",
     "build": "rollup -c rollup.config.js"
   },
   "dependencies": {
